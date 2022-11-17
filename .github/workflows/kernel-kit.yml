@@ -2,8 +2,7 @@ name: kernel-kit
 
 on:
   schedule:
-    - cron: '0 0 1,15 * *'
-    - cron: '0 0 20 * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
